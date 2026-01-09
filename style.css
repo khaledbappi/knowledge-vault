@@ -34,11 +34,11 @@ nav {
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    border-radius: 4px;
     color: #FFFFFF;
     background-color: #308868;
     border: none;
     padding: 12px 16px;
+    border-radius: 10px;
 }
 
 
@@ -72,8 +72,10 @@ nav {
 .banner-paragraph p{
     font-size: 16;
     color: #FFFFFF;
+    padding: 15px;
 }
 .banner-button #start-button{
+    height: 52px;
     background-color: #469165;
     color: white;
     align-items: center;
@@ -83,8 +85,10 @@ nav {
 }
 
 .banner-button #how-button{
+    height: 52px;
     align-items: center;
     padding: 12px 16px;
+    background-color: none;
 }
 .banner-button #startbtn-image{
     height: 20px;
@@ -126,10 +130,122 @@ nav {
     font-size: 16px;
 }
 .vector{
-    height: 20px;
-    width: 20px;
+    height: 40px;
+    width: 40px;
     background-color: red;
     border-radius: 50%;
     object-fit: cover;
 }
 
+/* brain design */
+#brain-container{
+    display:flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    text-align: left;
+    padding: 120px;
+}
+
+.brain-image{
+    height: 600px;
+    width: 600px;
+    margin: 0 auto; 
+}
+
+.brain-text{
+    margin: 40px;
+    padding: 0 20px;
+}
+.brain-text h3{
+    color: #469165;
+}
+.brain-text h1{
+    font-size: 48px;
+    font-weight: bold;
+    padding: 16px 0 16px;
+}
+.brain-text p{
+    font-size: 16px;
+    color: #627382; 
+    margin-right: 200px;
+}
+
+.brain-text ul{
+    padding: 6px;
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 40px;  
+}
+
+/* clear thinking design  */
+
+#clear-thinking{
+    text-align: center;
+    padding: 120px;
+    background-color: #F7F6F2;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-bottom: 20px;
+    
+}
+
+#clear-thinking h1{
+    margin-top: 80px;
+    margin-bottom: 16px; 
+    font-size: 40px;
+    font-weight: bold;
+} 
+#clear-thinking p{
+    font-size: 16px;
+    color: #627382;
+}
+#clear-thinking button{
+    background-color: #469165;
+    color: #FFFFFF;
+    margin-top: 24px;
+    border: none;
+    border-radius: 5px;
+}
+#clear-thinking .free-credit{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* footer design */
+
+
+.footer-container{
+    height: 64px;
+}
+
+#footer-image{
+    height: 60px;
+}
+.footer-text h3{
+    color:white;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.logo-flex{
+    height: 30px;
+    width: 30px;
+}
+
+.logo-text{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px;
+    background-color: #2b597f;
+}
+.logo-flex{
+    display: flex;
+}
+
+#foot-copy{
+    font-size: 16px;
+    color: #FAFAFA;
+    background-color: #2b597f;
+    text-align: center;
+}
