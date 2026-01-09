@@ -1,3 +1,4 @@
+/* body design */
 *{
     margin: 0;
     padding: 0;
@@ -7,8 +8,11 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+
+/* header design */
 header {
     padding-top: 18px;
+    text-align: center;
 }
 
 nav {
@@ -36,3 +40,96 @@ nav {
     border: none;
     padding: 12px 16px;
 }
+
+
+/* banner design */
+#banner{
+    background: url(images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+.banner-content{
+    padding: 70px 120px 134px 120px;
+}
+.banner-content button{
+    align-items: center;
+}
+
+
+.structure #structure-h1{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 72px;
+    align-items: center;
+}
+.structure #structure-h2{
+    color: #30B868; 
+    font-weight: bold;
+    font-size: 72px;
+}
+.banner-paragraph p{
+    font-size: 16;
+    color: #FFFFFF;
+}
+.banner-button #start-button{
+    background-color: #469165;
+    color: white;
+    align-items: center;
+    padding: 12px 16px;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.banner-button #how-button{
+    align-items: center;
+    padding: 12px 16px;
+}
+.banner-button #startbtn-image{
+    height: 20px;
+    width: 20px;
+}
+
+/* notes design */
+
+.notes-text{
+    text-align: center;
+    padding: 70px;
+    font-size: 48;
+    font-weight: bold;
+}
+.notes-text p{
+    color: #627382;
+    padding: 16px;
+}
+.notes-text h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.notes-cards{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 24px 24px;
+    margin: 0 auto;
+}
+
+.ideas-card h1{
+    font-size: 24px;
+    font-weight: 800;
+}
+.ideas-card p{
+    font-size: 16px;
+}
+.vector{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
